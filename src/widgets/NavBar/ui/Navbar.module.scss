@@ -13,6 +13,7 @@
   .cartBlock{
     display: flex;
     position: relative;
+    text-decoration: none;
     .cartCounter{
       display: flex;
       align-items: center;
@@ -26,6 +27,16 @@
       top:0;
       border-radius: 10px;
       background-color: red;
+    }
+  }
+  .link{
+    text-decoration:none;
+    color: black;
+    :visited{
+      text-decoration: none;
+    }
+    :active{
+      text-decoration: none;
     }
   }
 }

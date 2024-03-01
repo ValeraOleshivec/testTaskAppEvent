@@ -1,6 +1,19 @@
 .card {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
   width: 300px;
+  color: white;
   height: 500px;
   border-radius: 30px;
   background-color: black;
+  .image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    pointer-events: none;
+  }
 }
